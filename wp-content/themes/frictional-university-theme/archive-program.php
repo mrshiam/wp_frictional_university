@@ -16,7 +16,7 @@
                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 
                     
-                <?php }  ?>
+                <?php } wp_reset_postdata();  ?>
             </ul>
            
 
